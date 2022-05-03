@@ -1,0 +1,12 @@
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\OsuBeatmapParser.csproj.AssemblyReference.cache
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\OsuBeatmapParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\OsuBeatmapParser.AssemblyInfoInputs.cache
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\OsuBeatmapParser.AssemblyInfo.cs
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\OsuBeatmapParser.csproj.CoreCompileInputs.cache
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\bin\Debug\net6.0\OsuBeatmapParser.deps.json
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\bin\Debug\net6.0\OsuBeatmapParser.dll
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\bin\Debug\net6.0\OsuBeatmapParser.pdb
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\OsuBeatmapParser.dll
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\refint\OsuBeatmapParser.dll
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\OsuBeatmapParser.pdb
+C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\ref\OsuBeatmapParser.dll
