@@ -10,15 +10,22 @@ namespace OsuBeatmapParser.Model.Beatmap
         private const string _regexPattern = @"\[General\](?<General>.*)\[Editor\](?<Editor>.*)\[Metadata\](?<Metadata>.*)\[Difficulty\](?<Difficulty>.*)\[Events\](?<Events>.*)\[TimingPoints\](?<TimingPoints>.*)(\[Colours\](?<Colours>.*))?\[HitObjects\](?<HitObjects>.*)";
         
 
-        public GeneralSection General { get; private set; }
-        public EditorSection Editor { get; private set; }
-        public MetadataSection Metadata { get; private set; }
-        public DifficultySection Difficulty { get; private set; }
+        public GeneralSection? General { get; private set; }
+        public EditorSection? Editor { get; private set; }
+        public MetadataSection? Metadata { get; private set; }
+        public DifficultySection? Difficulty { get; private set; }
         // Events
         // TimingPoints 
         public SkinColoursSection? Colours { get; private set; }
-        public List<HitObject> HitObjects { get; private set; }
+        public List<HitObject>? HitObjects { get; private set; }
         
+        public static Beatmap FromFile(FileInfo file)
+        {
+            using(var reader = file.OpenText())
+            {
+                return FromString(reader.ReadToEnd());
+            }
+        }
         public static Beatmap FromString(string s)
         {
             return new Beatmap(s);
@@ -53,12 +60,6 @@ namespace OsuBeatmapParser.Model.Beatmap
         }
 
 
-        public static Beatmap FromFile(FileInfo file)
-        {
-            using(var reader = file.OpenText())
-            {
-                return FromString(reader.ReadToEnd());
-            }
-        }
+       
     }
 }
