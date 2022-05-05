@@ -8,4 +8,4 @@ TODO:
   3) Slider path calculator (implemented in https://github.com/yaggod/BezierCurveApp), Point class
   4) Osu!mania holds support
 Done:
-  1) Proper Key:Value sections parsing (Done!)
+  1) Proper Key:Value sections parsing (Done!) 
