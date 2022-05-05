@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mrVl/6D4MxnGXoTBB7RmWRWs9IdE+v7OJ1UPqCaqRX78UJt8gzdKuo8hV/stVHSXYJJi8APn9ZX/gcywOfGtmQ==",
+  "dgSpecHash": "BQiioDw7CdTPcd70xiSo1RqCx0yaZ/6mIvxFX0iklX5k95f27+Qnt/F36IMwvDs1WTCXdNhYuDtg/T3SwdwHbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj",
+  "projectFilePath": "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

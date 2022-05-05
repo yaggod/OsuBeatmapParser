@@ -4,11 +4,12 @@ namespace OsuBeatmapParser.Model.Beatmap.Sections
     public class SkinColoursSection : ValueKeyBeatmapSection
     {
 
-        public static SkinColoursSection FromString(string s)
+         public static SkinColoursSection FromString(string s)
         {
-            return new SkinColoursSection(s);
-        }
+            Dictionary<string, string> dictionary = GetDictionaryFromKeyValueString(s);
 
-        public SkinColoursSection(string s) : base(s) {}
+            return new DictionaryDeserializer.DictionaryDeserializer().DeserializeFrom<SkinColoursSection>(dictionary);
+
+        }
     }
 }

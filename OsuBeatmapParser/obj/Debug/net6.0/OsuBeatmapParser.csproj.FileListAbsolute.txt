@@ -10,3 +10,6 @@ C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\
 C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\refint\OsuBeatmapParser.dll
 C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\OsuBeatmapParser.pdb
 C:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\ref\OsuBeatmapParser.dll
+c:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\bin\Debug\net6.0\DictionaryDeserializer.dll
+c:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\bin\Debug\net6.0\DictionaryDeserializer.pdb
+c:\Users\yaggod\source\repos\OsuBeatmapParser\OsuBeatmapParser\obj\Debug\net6.0\OsuBeatmapParser.csproj.CopyComplete

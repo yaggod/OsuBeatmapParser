@@ -4,20 +4,7 @@ namespace OsuBeatmapParser.Model.Beatmap.Sections
 {
     public abstract class ValueKeyBeatmapSection : BeatmapSection
     {
-        protected Dictionary<string, string> _keyValueDictionary = new();
-        public string this[string s] 
-        {
-            get => _keyValueDictionary[s];
-            set => _keyValueDictionary[s] = value;
-        }
-
-        public int Length => _keyValueDictionary.Count();
-        protected ValueKeyBeatmapSection(string s)
-        {
-            _keyValueDictionary = GetDictionaryFromKeyValueString(s);
-        }
-
-        public static Dictionary<string, string> GetDictionaryFromKeyValueString(string s)
+        protected static Dictionary<string, string> GetDictionaryFromKeyValueString(string s)
         {
             Dictionary<string, string> result = new();
 

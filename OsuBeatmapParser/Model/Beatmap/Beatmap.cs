@@ -14,9 +14,9 @@ namespace OsuBeatmapParser.Model.Beatmap
         public EditorSection? Editor { get; private set; }
         public MetadataSection? Metadata { get; private set; }
         public DifficultySection? Difficulty { get; private set; }
-        // Events
-        // TimingPoints 
-        public SkinColoursSection? Colours { get; private set; }
+        // TODO: Events
+        // TODO: TimingPoints 
+        // TODO: public SkinColoursSection? Colours { get; private set; }
         public List<HitObject>? HitObjects { get; private set; }
         
         public static Beatmap FromFile(FileInfo file)
@@ -47,7 +47,6 @@ namespace OsuBeatmapParser.Model.Beatmap
             Editor  = EditorSection.FromString(matchGroups["Editor"].Value);
             Metadata = MetadataSection.FromString(matchGroups["Metadata"].Value);
             Difficulty = DifficultySection.FromString(matchGroups["Difficulty"].Value);
-            Colours = SkinColoursSection.FromString(matchGroups["Colours"].Value);
         }
         private void setupHitObjectsFromString(string s)
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj": {}
+    "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj": {
+    "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj",
+        "projectUniqueName": "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj",
         "projectName": "OsuBeatmapParser",
-        "projectPath": "C:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj",
+        "projectPath": "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj",
         "packagesPath": "C:\\Users\\yaggod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\obj\\",
+        "outputPath": "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yaggod\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -22,7 +22,7 @@ public class UnitTest1
 
         Assert.Equal(13041, objects.Where(obj => obj is HitCircle).Count());
         Assert.Equal(4921, objects.Where(obj => obj is Slider).Count());
-        Assert.Equal(64, objects.Where(obj => obj is HitCircle).Count());
+        Assert.Equal(64, objects.Where(obj => obj is Spinner).Count());
     }
 
     [Fact]
@@ -32,8 +32,9 @@ public class UnitTest1
 
         DifficultySection difficulty = becauseMaybe.Difficulty ?? throw new NullReferenceException();
 
-        
+        Assert.Equal(9.5M, difficulty.ApproachRate);
+        Assert.Equal(4M, difficulty.HPDrainRate);
+        Assert.Equal(4M, difficulty.CircleSize);
+        Assert.Equal(9M, difficulty.OverallDifficulty);
     }
-
-
 }
