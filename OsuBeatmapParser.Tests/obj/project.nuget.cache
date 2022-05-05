@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ug+Gm/Kz0JJpswCsx8y5vtSWUtOXeo94wr8p0WzA3y7huhiF8ts9r8/o4vJWvToH2roHbS9NEYW/RPPp8La6dQ==",
+  "dgSpecHash": "5UYJcP1cfNsuN46BJXv/0YaX+BRmA6HrtKozdHxrNOIJ0TArIOM1NvUcwcYt8yqKuhdh7nO+emTk5hF+esvfdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser.Tests\\OsuBeatmapParser.Tests.csproj",
+  "projectFilePath": "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser.Tests\\OsuBeatmapParser.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yaggod\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\yaggod\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

@@ -1670,6 +1670,29 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "DictionaryDeserializer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DictionaryDeserializer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DictionaryDeserializer.dll": {}
+        }
+      },
+      "OsuBeatmapParser/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DictionaryDeserializer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OsuBeatmapParser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OsuBeatmapParser.dll": {}
+        }
       }
     }
   },
@@ -5962,11 +5985,22 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "DictionaryDeserializer/1.0.0": {
+      "type": "project",
+      "path": "../../DictionaryDeserializer/DictionaryDeserializer/DictionaryDeserializer/DictionaryDeserializer.csproj",
+      "msbuildProject": "../../DictionaryDeserializer/DictionaryDeserializer/DictionaryDeserializer/DictionaryDeserializer.csproj"
+    },
+    "OsuBeatmapParser/1.0.0": {
+      "type": "project",
+      "path": "../OsuBeatmapParser/OsuBeatmapParser.csproj",
+      "msbuildProject": "../OsuBeatmapParser/OsuBeatmapParser.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 16.11.0",
+      "OsuBeatmapParser >= 1.0.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -5978,11 +6012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser.Tests\\OsuBeatmapParser.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser.Tests\\OsuBeatmapParser.Tests.csproj",
       "projectName": "OsuBeatmapParser.Tests",
-      "projectPath": "C:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser.Tests\\OsuBeatmapParser.Tests.csproj",
+      "projectPath": "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser.Tests\\OsuBeatmapParser.Tests.csproj",
       "packagesPath": "C:\\Users\\yaggod\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser.Tests\\obj\\",
+      "outputPath": "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yaggod\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5998,7 +6032,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj": {
+              "projectPath": "c:\\Users\\yaggod\\source\\repos\\OsuBeatmapParser\\OsuBeatmapParser\\OsuBeatmapParser.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

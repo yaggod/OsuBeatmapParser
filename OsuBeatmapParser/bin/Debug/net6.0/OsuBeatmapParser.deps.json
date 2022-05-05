@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "OsuBeatmapParser/1.0.0": {
+        "dependencies": {
+          "DictionaryDeserializer": "1.0.0"
+        },
         "runtime": {
           "OsuBeatmapParser.dll": {}
+        }
+      },
+      "DictionaryDeserializer/1.0.0": {
+        "runtime": {
+          "DictionaryDeserializer.dll": {}
         }
       }
     }
   },
   "libraries": {
     "OsuBeatmapParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DictionaryDeserializer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

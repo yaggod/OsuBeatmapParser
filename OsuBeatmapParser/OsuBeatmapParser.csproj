@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\DictionaryDeserializer\DictionaryDeserializer.csproj" />
     <ProjectReference Include="..\..\DictionaryDeserializer\DictionaryDeserializer\DictionaryDeserializer\DictionaryDeserializer.csproj" />
   </ItemGroup>
 

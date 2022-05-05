@@ -6,6 +6,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System;
+using OsuBeatmapParser.Model.Beatmap.TimingPoints;
 
 namespace OsuBeatmapParser.Tests;
 
@@ -24,6 +25,18 @@ public class UnitTest1
         Assert.Equal(4921, objects.Where(obj => obj is Slider).Count());
         Assert.Equal(64, objects.Where(obj => obj is Spinner).Count());
     }
+    
+
+    [Fact]
+    public void TestTimingPoints()
+    {
+        Beatmap becauseMaybe = Beatmap.FromFile(becauseMaybeFullSize);
+
+        List<TimingPoint> points = becauseMaybe.TimingPoints ?? throw new NullReferenceException();
+
+        Assert.Equal(153, points.Count());
+    }
+    
 
     [Fact]
     public void TestDifficulty()
@@ -37,4 +50,6 @@ public class UnitTest1
         Assert.Equal(4M, difficulty.CircleSize);
         Assert.Equal(9M, difficulty.OverallDifficulty);
     }
+
+
 }
